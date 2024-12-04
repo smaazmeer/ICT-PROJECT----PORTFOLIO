@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1150px;
+    background-color: #f0ece2;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    height: 200px;
+    background-color: #000814;
+}
+
+header img {
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+header .name {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #f8c617;
+    font-weight: bold;
+}
+
+header .contact ul {
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    list-style: none;
+    margin-left: 20px; 
+    gap: 135px;
+}
+
+
+header .contact ul li {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;    
+    transition: all 0.2s ease-in-out 0s;
+    font-size: 17px;
+}
+
+header .contact ul a {
+    color: #f8c617;
+    text-decoration: none;
+}
+
+header .contact ul li:hover{
+    background-color: #0d1725;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+div.introduction {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+    border: solid rgba(231, 218, 218, 0.5);
+    border-radius: 20px;
+    box-shadow: -5px 5px 20px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+div.introduction h1{
+    display: flex;
+    justify-content: center;
+}
+
+div.introduction p{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: large;
+}
+
+div.introduction:hover{
+    box-shadow:-5px 11px 20px 11px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1) translateX(20px);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+div.introduction hr{
+    position: relative;
+    left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+section.education {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 40%;
+    border: solid rgba(231, 218, 218, 0.5);
+    border-radius: 20px;
+    box-shadow: -5px 5px 20px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+section.education:hover{
+    box-shadow:-5px 11px 20px 11px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1) translateX(20px);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+section.education div {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+section.education ul{
+    margin: 15px;
+}
+
+section h1{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+
+section.education hr{
+    margin-left: 15px;
+    width: 95%
+}
+
+section.skills {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    bottom: 841px;
+    left: 800px;
+    border-radius: 20px;
+    box-shadow:-1px 0px 20px 2px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+section.skills div{
+    position: relative;
+    top: 30px;
+    margin-left: 15px;
+}
+
+section.skills hr{
+    position: relative;
+    top: 15px;
+    width: 95%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+section.skills h1{
+    position: relative;
+    top: 15px;
+    
+    font-weight: bold;
+}
+
+section.skills:hover{
+
+    transform: translateX(-30px) scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: 6px 5px 20px 4px rgba(0, 0, 0, 0.5);
+}
+
+section.right{
+    width: 580px;
+    height: 400px;
+    position: relative;
+    left: 700px;
+    bottom: 800px;
+    box-shadow:-1px 0px 20px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+section.right div{
+    position: relative;
+    top: 20px;
+    margin: 20px;
+}
+
+section.right div ul{
+    margin: 15px;
+}
+
+section.right div h1{
+    margin-left: -2px;
+}
+
+section.right:hover{
+    transform: translateX(-30px) scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: 6px 5px 20px 4px rgba(0, 0, 0, 0.5);
+
+}
